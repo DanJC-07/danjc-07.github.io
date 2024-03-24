@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@1,200..900&display=swap');
+
+:root {
+    --main-bg-color: #121212;
+    --main-bg-color-lighter: #1c1c1c;
+    --main-bg-color-darker: #0e0e0e;
+    --main-bg-color-lightest: #272727;
+    --main-bg-color-darkest: #000000;
+    --text-color: #FFFFFF;
+    --accent-color-1: #1976d2;
+    --accent-color-2: #061f38;
+    --accent-color-3: #555555;
+    --border-color: #333333;
+    --lighter-shade: #333333;
+    --darker-shade: #000000;
+    --font-main: "Roboto", sans-serif;
+    --font-code: "Source Code Pro", monospace;
+}
+
+/* Base colors */
+* {
+    color-scheme: dark;
+}
+
+/* Styles for scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    /* width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--main-bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 100vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color-3);
+}
+
+::-webkit-scrollbar-button {
+    background: var(--main-bg-color);
+    height: 5px;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+}
+
+/* Heading styles */
+h1,
+h2,
+h3 {
+    color: var(--text-color);
+}
+
+/* Links */
+a {
+    color: var(--accent-color-1);
+}
+
+a:hover {
+    color: var(--accent-color-3);
+}
+
+/* Buttons */
+.button {
+    background-color: var(--accent-color-1);
+    color: var(--text-color);
+}
+
+.button:hover {
+    background-color: var(--accent-color-3);
+}
+
+/* Borders */
+.border {
+    border-color: var(--border-color);
+}
+
+/* Shadows */
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Example of using accent colors */
+.alert {
+    background-color: var(--accent-color-2);
+    color: var(--text-color);
+}

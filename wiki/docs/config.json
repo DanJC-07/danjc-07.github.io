@@ -1,0 +1,16 @@
+{
+    "repo": "Docs",
+    "repoIcon": "/favicon.ico",
+    "pages": {
+        "Getting Started": {
+            "Overview": "index.html",
+            "Installation Guide": "windows.html"
+        },
+        "Editing a wiki": {
+            "About BetterGUI": "as.html"
+        },
+        "Creating a wiki": {
+            "About BetterGUI": "as.html"
+        }
+    }
+}
